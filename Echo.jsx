@@ -601,3 +601,5 @@ if (screen === "settings") return (
       </div>
       <p style={{ textAlign:"center", fontSize:11, color:"#c4c4c4", letterSpacing:2, marginTop:10, marginBottom:30 }}>ECHO BY LUMINAR INC</p>
     </div>
+  );
+                 }
