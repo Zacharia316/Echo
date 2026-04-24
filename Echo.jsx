@@ -595,7 +595,7 @@ if (screen === "tc") return (
   );
   // ─── SETTINGS SCREEN ──────────────────────────────────────────
   if (screen === "settings") return (
-    <div style={{ minHeight:"100vh", background:"linear-gradient(160deg,#fdf6ee,#f5e4f0)", padding:24, ...lato }}>
+    <div style={{ height:"100vh", overflowY:"auto", background:"linear-gradient(160deg,#fdf6ee,#f5e4f0)", padding:24, ...lato }}>
       <style>{gstyle}</style>
       <button onClick={() => setScreen("landing")} style={{ background:"none", border:"none", cursor:"pointer", display:"flex", alignItems:"center", gap:6, color:"#9a7e6a", fontSize:14, marginBottom:20 }}><BackIcon /> Back</button>
       <h2 style={{ ...playfair, fontSize:26, color:"#3d2c1e", marginBottom:4 }}>Settings</h2>
