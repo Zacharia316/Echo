@@ -2,7 +2,7 @@ import MarkovEngine from "./MarkovEngine";
 import { useState, useEffect, useRef, useCallback } from "react";
 
 const AI_URL = "https://text.pollinations.ai/openai";
-const POLLINATIONS_KEY = "sk_G23acdImvBt62Oqa80BH0UXWRF2D6W54";
+const POLLINATIONS_KEY = "sk_95rXQ4gXtXSvTtZ1JJorCg6GKrqyPiz4";
 const IMAGE_MODELS = {
   Fast: "flux",
   Quality: "gptimage",
